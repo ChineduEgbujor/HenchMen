@@ -1,3 +1,5 @@
+const connection = require('../db');
+
 // controllers/managerController.js
 const generateReport = (req, res) => {
     // Extract start and end dates from request body
@@ -50,7 +52,7 @@ const generateReport = (req, res) => {
         
 
         // Send back response with customer_id and name
-        res.status(200).json({  first_name, message: 'Authentication successful' });
+        res.status(200).json({ message: 'Authentication successful' });
         
     });
   };
