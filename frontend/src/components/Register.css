@@ -1,0 +1,55 @@
+.registration{
+    .registration-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #e6f2ff; /* Light blue background, like the sky */
+    }
+    
+    .registration-form {
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        background: white;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        width: 300px;
+    }
+    
+    .registration-form h2 {
+        text-align: center;
+        color: #003366; /* Dark blue, representing professionalism */
+    }
+    
+    .registration-form label {
+        display: block;
+        margin-top: 10px;
+        color: #003366;
+    }
+    
+    .registration-form input[type="text"],
+    .registration-form input[type="email"],
+    .registration-form input[type="password"] {
+        width: 100%;
+        padding: 8px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    .register-btn {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #0073e6;
+        color: white;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 15px;
+    }
+    
+    .register-btn:hover {
+        background-color: #0056b3;
+    }
+    
+}

@@ -1,0 +1,77 @@
+.login {
+.login-background {
+    background: linear-gradient(
+                  to right,
+                  rgba(36, 123, 160, 0.8),  /* Light blue */
+                  rgba(112, 193, 179, 0.8) /* Soft green */
+                ),
+                url('https://source.unsplash.com/1600x900/?airplane'); /* Background image */
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    max-width: 400px; /* Set a max-width for the form */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  }
+  
+  .login-form-col {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .text-center {
+    margin-top: 20px;
+  }
+  
+  /* Styles for form input fields */
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Style for the submit button */
+  .btn-primary {
+    background-color: #0055B8; /* A deep blue color reminiscent of airline style */
+    border-color: #004099;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover,
+  .btn-primary:focus,
+  .btn-primary:active {
+    background-color: #003c82;
+    border-color: #003365;
+  }
+  
+  /* Style for the header */
+  h1.text-center {
+    color: #ffffff; /* White color for better contrast */
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow for text readability */
+  }
+  
+  /* Footer styles */
+  footer {
+    color: #ddc38afd;
+    font-size: 0.9em;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  }
+}

@@ -1,0 +1,23 @@
+.booking {
+    .booking-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        background-color: #f4f9ff;
+        color: #0056b3;
+        font-family: 'Arial', sans-serif;
+    }
+    
+    .booking-container h1 {
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+    
+    .booking-container p {
+        font-size: 1.2rem;
+    }
+    
+    
+}
