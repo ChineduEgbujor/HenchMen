@@ -5,7 +5,7 @@
         justify-content: space-between; /* Align items at the start and end of the header */
         align-items: center; /* Center items vertically within the header */
         padding: 1rem 2rem; /* Adjust padding as needed */
-        color: white;
+        color: #633838;
       }
       
       .logo-link .logo {
@@ -19,7 +19,7 @@
       }
       
       header nav a {
-        color: #474146;
+        color: #000000;
         text-decoration: none;
         padding: 0.5rem 1rem;
         margin: 0 0.5rem;

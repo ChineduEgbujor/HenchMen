@@ -1,5 +1,5 @@
 import React from "react";
-import axios from "axios";
+//import axios from "axios";
 import { Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "./AuthContext"; // Import useAuth hook
@@ -10,9 +10,9 @@ function Logout() {
 
   const handleLogout = async () => {
     try {
-      await axios.post("http://localhost:5000/logout");
+     // await axios.post("http://localhost:5000/logout");
       logout(); // Clear user state upon successful logout
-      navigate("/login");
+      navigate("/home");
     } catch (error) {
       console.error("Logout failed:", error.response.data);
     }

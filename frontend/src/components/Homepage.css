@@ -10,7 +10,7 @@ body {
 
 /* Main container styles */
 .homepage {
-  background-image: url('https://source.unsplash.com/1600x900/?wonders of the world');
+  background-image: url('https://source.unsplash.com/1600x900/?seven wonders of the world');
   background-size: cover;
   background-position: center;
   color: rgba(255, 255, 255, 0.9);
@@ -124,7 +124,7 @@ button:hover {
   background-position: center;
   color: white;
   text-align: center;
-  padding: 4rem 0;
+  /*padding: 4rem 0;*/
 } 
 
 /* .hero {

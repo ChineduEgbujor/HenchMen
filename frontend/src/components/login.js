@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import { Container, Row, Col, Form, Button } from "react-bootstrap";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom"; // Import Link from react-router-dom
 import { useAuth } from "./AuthContext"; // Import useAuth hook
 import "./LoginForm.css";
 
@@ -72,6 +72,9 @@ function Login() {
                   Login
                 </Button>
               </Form>
+              <div className="text-center mt-3">
+                <p>Don't have an account? <Link to="/register">Register</Link></p>
+              </div>
             </Col>
           </Row>
           <Row>

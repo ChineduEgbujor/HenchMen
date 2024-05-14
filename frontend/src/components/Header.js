@@ -11,9 +11,10 @@ const Header = () => {
       </a>
       <nav className="header-nav"> 
         <ul>
-          <li><a href="/login">Login</a></li>
-          <li><a href="/register">Sign Up</a></li>
-          <li><a href="/view-flights">View Flights</a></li>
+          <a href="/login">Login</a>
+          <a href="/register">Sign Up</a>
+          <a href="/view-flights">View Flights</a>
+          <a href="/manager">Admin</a>
         </ul>
       </nav>
     </header>

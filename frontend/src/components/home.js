@@ -35,7 +35,7 @@ const HomePage = () => {
         </section>
       </main>
       <footer>
-        <p>&copy; 2024 Your Airline Reservation System. All rights reserved.</p>
+        <p>&copy; 2024 The henchMen Airlines. All rights reserved.</p>
       </footer>
     </div>
     </div>

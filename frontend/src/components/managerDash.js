@@ -1,4 +1,3 @@
-// ManagerDashboard.js
 import React, { useState } from 'react';
 import axios from 'axios';
 import './ManagerDashboard.css'; // Import the CSS file
@@ -42,31 +41,29 @@ const ManagerDashboard = () => {
         <input type="date" name="endDate" value={dates.endDate} onChange={handleChange} />
       </label>
       <button onClick={handleGenerateReport}>Generate Report</button>
-        {report && (
-          <div className="report">
-            <table>
-              <thead>
-                <tr>
-                  <th>Total Reservations</th>
-                  <th>Total Revenue</th>
-                  <th>Destination City</th>
-                  <th>Reservations Per Destination</th>
-                </tr>
-              </thead>
-              <tbody>
-                {report.map((item, index) => (
-                  <tr key={index}>
-                    <td>{item.total_reservations}</td>
-                    <td>{item.total_revenue}</td>
-                    <td>{item.destination_city}</td>
-                    <td>{item.reservations_per_destination}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        )}
-      </div>
+      {report && (
+        <div className="report">
+          <table>
+            <thead>
+              <tr>
+                <th>Total Reservations</th>
+                <th>Total Revenue</th>
+                <th>Popular Destinations</th>
+                <th>Average Booking Value</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{report.total_reservations}</td>
+                <td>{report.total_revenue}</td>
+                <td><pre>{report.popular_destinations}</pre></td>
+                <td>{report.average_booking_value}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      )}
+    </div>
     </div>
   );
 };
